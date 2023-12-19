@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm $1/*.o
+rm $1/*.asm
+

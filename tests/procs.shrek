@@ -1,0 +1,6 @@
+proc foo :: Int -> Int do
+  1 +
+end
+
+68 foo putc
+

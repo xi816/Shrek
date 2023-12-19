@@ -1,0 +1,3 @@
+#!/bin/bash
+./shrek.py -r -t nasmLinux64 -f $1
+

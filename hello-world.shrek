@@ -1,0 +1,5 @@
+#!./shreknodebug
+"Hello"     puts
+", World!"  puts
+'\J'        putc
+

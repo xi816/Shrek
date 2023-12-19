@@ -1,0 +1,6 @@
+34  35  +
+200 220 +
+
+swap dup putc swap
+drop drop 10 putc
+

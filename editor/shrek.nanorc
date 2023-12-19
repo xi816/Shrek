@@ -1,0 +1,22 @@
+syntax "Shrek" "\.shrek$"
+magic "Shrek "
+comment "//"
+
+# Keywords
+color brightyellow "\<(include)\>"
+color brightyellow "\<(proc|do|end|const|let|be|if|while|alloc|macro)\>"
+
+# Strings/Chars
+color teal "\".*\""
+color teal "'.'"
+
+# Datatypes
+color yellow "\<(Int|Ptr|Bool)\>"
+
+# Syscalls
+color red "\<(syscall[0-6])\>"
+
+color brightblack "//.*$"
+
+color ,teal "[[:space:]]+$"
+

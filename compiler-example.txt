@@ -1,0 +1,25 @@
+'A' putc
+
+||
+vv
+
+section .text
+global _start
+
+_start:
+  push rbp
+  mov rbp, rsp
+
+  sub rsp, 0x1
+
+  mov BYTE [rsp-1], 65
+  mov rax, 0x1
+  mov rdi, 0x1
+  mov rsi, rsp-1
+  mov rdx, 0x1
+  syscall
+
+  leave
+  mov eax, 0x0
+  ret
+
